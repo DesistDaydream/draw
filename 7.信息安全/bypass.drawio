@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2024-03-04T15:07:48.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cAh9aAhGSH4CxS-ghfXf" version="24.0.1" type="github">
+  <diagram name="第 1 页" id="XQGc3e6iFTo0TtikxGPw">
+    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="24TF69uvAYoCYiL5ALOf-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24TF69uvAYoCYiL5ALOf-2" target="24TF69uvAYoCYiL5ALOf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24TF69uvAYoCYiL5ALOf-2" target="24TF69uvAYoCYiL5ALOf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-2" value="Router1" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="545" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-3" value="Router2" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="590" y="545" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24TF69uvAYoCYiL5ALOf-9" target="24TF69uvAYoCYiL5ALOf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-9" value="流控设备、安全设备、etc.&lt;div&gt;（e.g. DPI、IPS、IDS、etc.）&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
+          <mxGeometry x="349.25" y="380" width="56.00000000000001" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-10" value="Bypass tap" style="shape=mxgraph.cisco.hubs_and_gateways.small_hub;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="550" width="165.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-11" value="C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="24TF69uvAYoCYiL5ALOf-12" target="24TF69uvAYoCYiL5ALOf-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="640" />
+              <mxPoint x="465" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-12" value="A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="595" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24TF69uvAYoCYiL5ALOf-13" target="24TF69uvAYoCYiL5ALOf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-13" value="B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="595" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="24TF69uvAYoCYiL5ALOf-14" target="24TF69uvAYoCYiL5ALOf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-14" value="D" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24TF69uvAYoCYiL5ALOf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24TF69uvAYoCYiL5ALOf-11" target="24TF69uvAYoCYiL5ALOf-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
